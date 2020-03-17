@@ -10,5 +10,5 @@ def hello(array)
   collection
 end
 
-hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+hello(list) {|i| "Hello #{i}"}
 
